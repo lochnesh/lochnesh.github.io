@@ -278,6 +278,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 232)
+  jekyll (>= 3.7.4)
 
 BUNDLED WITH
    2.4.19
