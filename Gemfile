@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Use a recent github-pages release that pulls in a secure Active Support
+# Use a recent github-pages release that pulls in a secure Jekyll
 gem 'github-pages', '~> 232'
+
+# Explicitly require a safe Jekyll version
+gem 'jekyll', '>= 3.7.4'
