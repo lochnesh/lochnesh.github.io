@@ -8,6 +8,8 @@ on:
 jobs:
   security:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_WITH: "development"
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
@@ -15,4 +17,4 @@ jobs:
           ruby-version: '3.2.3'
           bundler-cache: true
       - name: Run bundler audit
-        run: bundle audit check --update
+        run: bundle exec bundle-audit check --update
