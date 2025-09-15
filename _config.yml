@@ -4,7 +4,7 @@ email: skylernesheim@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi. I'm Skyler Nesheim, a developer from Des Moines, Iowa.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://skylernesheim.com" # the base hostname & protocol for your site
+url: "https://skylernesheim.com" # the base hostname & protocol for your site
 twitter_username: skylernesheim
 github_username:  lochnesh
 
